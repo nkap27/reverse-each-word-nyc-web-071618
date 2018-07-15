@@ -9,10 +9,11 @@
 # end
 
 def reverse_each_word(sentence2)
-  sentence2 = sentence2.split
+sentence2 = sentence2.split
+words = []
 
-  sentence2.collect do |word|
-    word.reverse
+sentence2.collect do |word|
+  words << word.reverse
   end
-  return sentence2.join(' ')
+  return words.join(' ')
 end
