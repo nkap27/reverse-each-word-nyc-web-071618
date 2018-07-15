@@ -8,11 +8,11 @@ def reverse_each_word(sentence1)
   return string.join(' ')
 end
 
-def reverse_each_word(sentence2)
-  sentence2 = sentence2.split
-
-  sentence2.collect do |word|
-    word.reverse
-  end
-  return sentence2.join(' ')
-end
+# def reverse_each_word(sentence2)
+#   sentence2 = sentence2.split
+#
+#   sentence2.collect do |word|
+#     word.reverse
+#   end
+#   return sentence2.join(' ')
+# end
