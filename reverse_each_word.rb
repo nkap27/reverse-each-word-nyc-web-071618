@@ -5,7 +5,7 @@ def reverse_each_word(sentence1)
   sentence1.each do |word|
     string << word.reverse
   end
-  string.join(' ')
+  return string.join(' ')
 end
 
 def reverse_each_word(sentence2)
